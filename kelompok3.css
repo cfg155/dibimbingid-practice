@@ -1,7 +1,22 @@
-.section-categories {
-  text-align: center;
-  background-color: aqua;
+.media-heading {
+  align-items: center;
+  justify-content: center;
+}
+
+.category-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+}
+
+.categories-heading {
+  text-align: center;
+}
+.media-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.media-heading {
+  text-align: center;
 }
