@@ -1,0 +1,140 @@
+/* ==== Featured Section ==== */
+.section-featured {
+    background-color: #f8f9fb;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.featured-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ==== Product Card Container ==== */
+.featured-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* ==== Individual Product Card ==== */
+.product-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ==== Product Image ==== */
+.product-figure {
+    margin: 0;
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.product-caption {
+    font-size: 0.85rem;
+    color: #666;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+/* ==== Product Content ==== */
+.product-header {
+    padding: 15px 20px 0;
+}
+
+.product-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.product-subtitle {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.product-desc {
+    padding: 0 20px;
+    font-size: 0.9rem;
+    color: #444;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+/* ==== Product Price ==== */
+.product-price {
+    padding: 0 20px 10px;
+    font-size: 1rem;
+    color: #111;
+}
+
+.text-del {
+    color: #888;
+    text-decoration: line-through;
+}
+
+.text-ins {
+    color: #e63946;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.text-small {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+/* ==== Add to Cart Button ==== */
+.btn-add-cart {
+    display: block;
+    width: 85%;
+    margin: 10px auto 20px;
+    padding: 10px 0;
+    background-color: #0077ff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-add-cart:hover {
+    background-color: #005fcb;
+    transform: scale(1.05);
+}
+
+/* ==== Responsive Design ==== */
+@media (max-width: 768px) {
+    .featured-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-card {
+        width: 90%;
+    }
+}
