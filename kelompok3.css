@@ -1,0 +1,7 @@
+.section-categories {
+  text-align: center;
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
