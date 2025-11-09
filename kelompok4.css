@@ -1,0 +1,50 @@
+.aside{
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.aside-links{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.aside-link{
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    padding: 30px 50px;
+}
+
+.footer-contact, 
+.footer-social {
+    width: auto;
+    text-align: left;
+}
+
+.footer-heading {
+    text-align: left;
+}
+
+.footer-address-text {
+    margin-left: 0;
+}
+
+.footer-copy{
+    text-align: center;
+}
+
+.footer-update{
+    text-align: center;
+}
+
+.footer-time{
+    text-align: center;
+}
